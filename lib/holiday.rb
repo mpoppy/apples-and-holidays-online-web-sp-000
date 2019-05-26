@@ -146,7 +146,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies == "BBQ"
         bbq_holidays << holiday
       end
+      bbq_holidays
     end
   end
-  bbq_holidays
 end
