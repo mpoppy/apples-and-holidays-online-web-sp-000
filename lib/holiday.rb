@@ -140,10 +140,10 @@ def all_holidays_with_bbq(holiday_hash)
  #     :memorial_day => ["BBQ"]
  #   }
   #}
+  bbq_holidays = []
   holiday_hash.each do |season, holiday_data|
     holiday_data.select do |holiday, supplies|
       if supplies == "BBQ"
-        bbq_holidays = []
         bbq_holidays << holiday
       end
     end
